@@ -1,0 +1,50 @@
+html{
+    background-image: linear-gradient(white, gray);
+    height: 720px;
+}
+#logo {
+    width:70px;
+    height:70px;
+    position:absolute;
+    left: 100px;
+    top:70px;
+}
+ul{
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+li{
+    display: inline;
+    padding: 5px 10px;
+}
+li:hover{
+    background-color:gray;
+    color: white;
+}
+#logo-nav{
+    height:200px;
+    display: flex;
+    position:relative;
+}
+#text-img{
+    display: flex;
+}
+#product{
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#words{
+    text-transform: uppercase;
+}
+#text{
+    width:500px;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: justify;
+}
+#title{
+    font-size: 40px;
+    font-family:'cursive';
+}
